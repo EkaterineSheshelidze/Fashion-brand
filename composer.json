@@ -1,0 +1,17 @@
+{
+    "name": "user/project",
+    "autoload": {
+        "psr-4": {
+            "User\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kato sheshelidze",
+            "email": "katosheshelidze@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.4"
+    }
+}

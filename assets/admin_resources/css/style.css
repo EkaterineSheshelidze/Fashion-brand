@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Dosis";
+}
+#login-body {
+  background: #333333;
+}
+#login-form {
+  width: 350px;
+  background: white;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+.purple-image {
+  width: 560px;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login-main {
+  display: inline-flex;
+  height: 500px;
+  -webkit-box-shadow: 0px 0px 18px -6px #000000;
+  box-shadow: 0px 0px 18px -6px #000000;
+}
+
+#login-form h2 {
+  font-family: "Poiret One";
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  padding: 6px 12px;
+  display: inline-block;
+  border-bottom: 2px solid #5f009f;
+}
+
+#login-form.register {
+  height: 420px;
+}
+
+#login-form .text-field {
+  border: 1px solid #a6a6a6;
+  width: 250px;
+  height: 40px;
+  margin-top: 15px;
+  padding-left: 10px;
+  color: #6c6c6c;
+  outline: none;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid #656565;
+}
+
+#login-form .button {
+  width: 250px;
+  height: 37px;
+  color: white;
+  border: none;
+  margin-top: 50px;
+  background: #5f009f;
+}
+
+#login-form .button:hover {
+  background: #3f0069;
+}
+
+/* admin */
+
+aside {
+  width: 270px;
+  height: 100vh;
+  background: #5f009f;
+  display: inline-block;
+  box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%);
+}
+aside h1 {
+  color: white;
+  margin: 15px 75px;
+}
+header {
+  text-align: center;
+  margin-top: 27px;
+}
+header ul li {
+  text-align: left;
+  font-size: 19px;
+  text-decoration: none;
+  list-style-type: none;
+}
+header ul li a {
+  padding: 11px 36px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+header ul li:hover {
+  background-color: #3f0069;
+}
+header ul li:last-child {
+  border-top: 1px solid rgb(185, 185, 185);
+  margin-top: 45px;
+}
+.main {
+  display: inline-block;
+  width: calc(100% - 340px);
+  vertical-align: top;
+  padding: 60px 20px;
+}
+
+.admin-form {
+  width: 80%;
+}
+.admin-form .form-group {
+  margin-bottom: 20px;
+}
+.admin-form label {
+  font-size: 19px;
+}
+.admin-form input,
+.admin-form textarea {
+  width: 100%;
+  padding: 10px 17px;
+  border-radius: 4px;
+  display: block;
+  background: white;
+  border: 1px solid rgb(228, 228, 228);
+  outline: none;
+  margin-top: 7px;
+}
+.admin-form textarea {
+  height: 250px;
+}
+
+.btn {
+  padding: 11px 22px;
+  background-color: #5f009f;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #3f0069;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  padding: 15px;
+}
+.table-container {
+  margin-top: 30px;
+}
+.action-btn {
+  text-decoration: none;
+}
+.edit {
+  margin-right: 13px;
+  color: #46d000;
+}
+.delete {
+  color: #fd0000;
+}
+table .text {
+  width: 605px;
+}
