@@ -1,6 +1,11 @@
 -- MariaDB dump 10.19  Distrib 10.4.28-MariaDB, for Win64 (AMD64)
 --
 -- Host: localhost    Database: project
+
+-- Admin Credentials: 
+-- Username: user
+-- Password: 123
+
 -- ------------------------------------------------------
 -- Server version	10.4.28-MariaDB
 
